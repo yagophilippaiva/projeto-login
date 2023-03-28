@@ -23,8 +23,11 @@
         width: 70%;
         height: 100%;
     }
+    div#formulario{
+        transform: translateY(22%);
+    }
     div.campo > input{
-        width: 50%;
+       
         height: 30px;
     }
 
@@ -32,6 +35,9 @@
 @media screen and (min-width: 1025px) {
     body{
         background-image: linear-gradient(to top, var(--ton1), var(--ton2), var(--ton3));
+    }
+    div#formulario{
+        transform: translateY(22%);
     }
     section#login{
         width: 80vw;
