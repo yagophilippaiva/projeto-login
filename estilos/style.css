@@ -21,7 +21,7 @@ ton 5 #CEC1AE
     box-sizing: border-box;
 }
 body, html{
-    background-image: linear-gradient(to top, var(--ton1), var(--ton2), var(--ton3));
+    background-color: black ;
     width: 100vw;
     height: 100vh;
 }
